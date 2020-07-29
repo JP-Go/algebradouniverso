@@ -3,7 +3,7 @@
     "name": "Simulation one",
     "path": "https://www.google.com",
     "description": "This is the sim one",
-    "thumbnail": "./img/ stock3.jpg"
+    "thumbnail": "./img/stock3.jpg"
   },
   "Ex2": {
     "name": "Simulation two",
