@@ -1,0 +1,26 @@
+{
+  "Ex1": {
+    "name": "Simulation one",
+    "path": "https://www.google.com",
+    "description": "This is the sim one",
+    "thumbnail": "./img/test.png"
+  },
+  "Ex2": {
+    "name": "Simulation two",
+    "path": "https://www.google.com",
+    "description": "This is the sim two",
+    "thumbnail": "./img/slide1.jpeg"
+  },
+  "Ex3": {
+    "name": "Simulation three",
+    "path": "https://www.google.com",
+    "description": "This is the sim three",
+    "thumbnail": "./img/slide11.jpg"
+  },
+  "Ex4": {
+    "name": "Simulation four",
+    "path": "https://www.google.com",
+    "description": "This is the sim four",
+    "thumbnail": "./img/slide3.jpg"
+  }
+}

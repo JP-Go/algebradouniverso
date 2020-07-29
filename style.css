@@ -1,0 +1,361 @@
+/* Autor: João Pedro Gomes*/
+
+/*Importação da fonte Montserrat do Google*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+:root {
+  --color1: #fff;
+  --color2: #b2d430;
+  --color3: #000000;
+  font-family: "Montserrat";
+  font-size: 14pt;
+}
+
+/*  ==================== SUMARIO ===========================
+
+          1.REGRAS BASICAS DO SITE
+          2.CONTEUDO PRINCIPAL
+          3.DESING DOS CARDS
+          4.REGRAS DA PAGINA CONTATO
+          5.CONTEUDO E COMPORTAMENTO DA SIDEBAR
+          6.REGRAS DA PAGINA HOME
+          A1.ATRIBUTOS P/ RESPONSIVIDADE
+          A2.DEFINICAO DE ANIMACOES
+ ====================== SUMARIO ==========================*/
+
+/* ======================================================
+              1.REGRAS BASICAS DO SITE
+   ===================================================*/
+html,
+body {
+  background-color: var(--color1);
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+.body-container {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+body::-webkit-scrollbar {
+  display: block;
+  width: 0.5em;
+}
+body::-webkit-scrollbar-track {
+  background-color: var(--color3);
+}
+body::-webkit-scrollbar-thumb {
+  display: block;
+  background-color: var(--color2);
+  height: 20px;
+}
+.botao {
+  height: 1.2rem;
+  background-color: var(--color2);
+  color: black;
+  outline: none;
+  border-radius: 4px;
+  border: var(--color2);
+  font-family: "Montserrat";
+  font-weight: 600;
+  cursor: pointer;
+}
+.botao:hover {
+  animation: jump 500ms ease;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+a:visited {
+  color: black;
+}
+/* =============================================
+            2.CONTEUDO PRINCIPAL
+  ============================================*/
+
+main {
+  margin-left: 5rem;
+  padding: 1rem;
+}
+.content-container {
+  background-color: var(--color1);
+  box-sizing: border-box;
+  margin: 0;
+}
+#content__title {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+/* ==========================================
+          3.DESING DOS CARDS
+  ==========================================*/
+.content__cards {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  align-items: flex-start;
+  justify-content: space-evenly;
+}
+
+.card {
+  box-shadow: 0.2rem 0.2rem 0.2rem 0.2rem #7e7e7e7e;
+  background-color: var(--color1);
+  border-radius: 1rem;
+  padding: 1rem;
+  width: 15rem;
+  height: max-content;
+  margin-right: 1rem;
+  margin-bottom: 1.3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  transition: 500ms ease;
+}
+.card:hover {
+  transform: scale(1.1);
+}
+.card__image {
+  height: 100px;
+  width: 100%;
+  border-color: black;
+  margin: 0 auto;
+}
+.card__text {
+  text-align: justify;
+}
+
+/* ===========================================
+        4.REGRAS DA PAGINA CONTATO
+   ===========================================*/
+.card-contato {
+  box-shadow: 0.2rem 0.2rem 0.2rem 0.2rem #7e7e7e7e;
+  background-color: var(--color1);
+  border-radius: 1rem;
+  padding: 1rem;
+  width: 20rem;
+  height: fit-content;
+  margin-right: 1rem;
+}
+
+#email {
+  outline: none;
+  border: none;
+  width: 100%;
+  border-bottom: 2px solid var(--color2);
+  background-color: rgba(0, 0, 0, 0.05);
+}
+#email:focus-within {
+  border-bottom: 2px solid var(--color2);
+}
+#corpo-do-email {
+  outline: none;
+  border: none;
+  width: 90%;
+  font-family: "Montserrat";
+  padding-left: 1rem;
+  text-align: justify;
+  border-bottom: 2px double var(--color2);
+  border-right: 2px double var(--color2);
+  background-color: rgba(0, 0, 0, 0.05);
+}
+#btn-enviar {
+  display: block;
+  transform: scale(1.2);
+  border-radius: 4px;
+  cursor: pointer;
+}
+#btn-enviar:hover {
+  animation: jump 500ms linear;
+}
+
+/* ====================================================
+        5.CONTEUDO E COMPORTAMENTO DA SIDEBAR
+ =====================================================*/
+nav {
+  margin: 0;
+  position: fixed;
+  width: 5rem;
+  height: 100vh;
+  background-color: var(--color3);
+  z-index: 1;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.navbar-itens {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  height: 100vh;
+}
+.txt-icone {
+  display: none;
+  color: var(--color2);
+  margin-left: 1rem;
+}
+.link-nav {
+  display: flex;
+  text-decoration: none;
+  align-items: flex-end;
+}
+/*  =======================================================
+                 6.REGRAS DA PÁGINA HOME
+  =======================================================  */
+.slides {
+  width: 60%;
+  height: 300px;
+  margin: 2rem auto;
+}
+.slides__image {
+  width: 0.5vw;
+  height: inherit;
+  display: none;
+}
+.slides__container {
+  position: relative;
+  display: flex;
+  margin: 0 auto;
+  width: 90%;
+  height: 300px;
+}
+.slides__container > img {
+  width: 100%;
+  height: 100%;
+  animation: fadein 700ms ease;
+}
+#prevBtn,
+#nextBtn {
+  position: absolute;
+  top: 33%;
+  height: 33%;
+  width: 50px;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 0px 10px 10px 0px;
+  border-color: transparent;
+  cursor: pointer;
+  transition: 200ms ease;
+  box-sizing: border-box;
+}
+#nextBtn {
+  right: 0;
+  border-radius: 10px 0px 0px 10px;
+}
+#prevBtn:hover,
+#nextBtn:hover {
+  transform: scaleY(1.2);
+  width: 60px;
+}
+/*  =======================================================
+        A1.ATRIBUTOS P/ RESPOSIVIDADE
+  =======================================================*/
+@media only screen and (min-width: 720px) {
+  .body-container {
+    grid-template-columns: 5rem calc(100%-5rem);
+  }
+  nav {
+    width: 5rem;
+    transition: width 500ms ease;
+    margin: 0;
+  }
+  nav:hover {
+    width: 12rem;
+  }
+  .icones {
+    margin: 0;
+  }
+
+  nav:hover .txt-icone {
+    display: block;
+    animation: fade-in-from-left 600ms forwards;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .navbar-item {
+    margin-top: 2.5rem;
+  }
+  .navbar-item:last-child {
+    margin-top: auto;
+    margin-bottom: 1rem;
+  }
+}
+@media only screen and (max-width: 720px) {
+  main {
+    margin: 0 auto 5rem auto;
+    padding: 1rem;
+  }
+  nav {
+    bottom: 0;
+    width: 100vw;
+    height: 5rem;
+    padding: auto 0;
+  }
+  .navbar-itens {
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-around;
+    padding-top: 1rem;
+  }
+  .card-contato {
+    width: 100%;
+    height: 100%;
+  }
+}
+.onload-right {
+  animation: flush-from-right 500ms ease;
+}
+
+/* =======================================
+        A2.DEFINIÇÃO DE ANIMACOES 
+  ========================================*/
+
+@keyframes fade-in-from-left {
+  from {
+    transform: translateX(-65%);
+    filter: opacity(0);
+  }
+  to {
+    filter: opacity(1);
+    transform: translateX(0);
+  }
+}
+@keyframes flush-from-right {
+  from {
+    opacity: 0;
+    transform: translateX(30%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes jump {
+  25%,
+  75% {
+    transform: translateY(-10px);
+  }
+  50%,
+  100% {
+    transform: translateY(0);
+  }
+}
+@keyframes fadein {
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
+}
