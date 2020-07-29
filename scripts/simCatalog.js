@@ -3,7 +3,7 @@ getData();
 
 async function getData() {
   // Requisição dos dados no arquivo simData.json
-  let response = await fetch("simData.json");
+  let response = await fetch("./scripts/simData.json");
   let simData = await response.json();
 
   let simsCatalog = document.querySelector("#simulations");
