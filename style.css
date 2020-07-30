@@ -131,52 +131,8 @@ main {
   text-align: justify;
 }
 
-/* ===========================================
-        4.REGRAS DA PAGINA CONTATO
-   ===========================================*/
-.card-contato {
-  box-shadow: 0.2rem 0.2rem 0.2rem 0.2rem #7e7e7e7e;
-  background-color: var(--color1);
-  border-radius: 1rem;
-  padding: 1rem;
-  width: 20rem;
-  height: fit-content;
-  margin-right: 1rem;
-}
-
-#email {
-  outline: none;
-  border: none;
-  width: 100%;
-  border-bottom: 2px solid var(--color2);
-  background-color: rgba(0, 0, 0, 0.05);
-}
-#email:focus-within {
-  border-bottom: 2px solid var(--color2);
-}
-#corpo-do-email {
-  outline: none;
-  border: none;
-  width: 90%;
-  font-family: "Montserrat";
-  padding-left: 1rem;
-  text-align: justify;
-  border-bottom: 2px double var(--color2);
-  border-right: 2px double var(--color2);
-  background-color: rgba(0, 0, 0, 0.05);
-}
-#btn-enviar {
-  display: block;
-  transform: scale(1.2);
-  border-radius: 4px;
-  cursor: pointer;
-}
-#btn-enviar:hover {
-  animation: jump 500ms linear;
-}
-
 /* ====================================================
-        5.CONTEUDO E COMPORTAMENTO DA SIDEBAR
+        4.CONTEUDO E COMPORTAMENTO DA SIDEBAR
  =====================================================*/
 nav {
   margin: 0;
@@ -210,7 +166,7 @@ ul {
   align-items: flex-end;
 }
 /*  =======================================================
-                 6.REGRAS DA PÁGINA HOME
+              5.REGRAS DA PÁGINA HOME
   =======================================================  */
 .slides {
   width: 60%;
@@ -218,8 +174,8 @@ ul {
   margin: 2rem auto;
 }
 .slides__image {
-  width: 0.5vw;
-  height: inherit;
+  width: 50%;
+  height: 100%;
   display: none;
 }
 .slides__container {
@@ -227,7 +183,9 @@ ul {
   display: flex;
   margin: 0 auto;
   width: 90%;
-  height: 300px;
+  height: 400px;
+  box-sizing: border-box;
+  border: solid var(--color2);
 }
 .slides__container > img {
   width: 100%;
@@ -255,6 +213,16 @@ ul {
 #nextBtn:hover {
   transform: scaleY(1.2);
   width: 60px;
+}
+#legenda {
+  position: absolute;
+  width: 100%;
+  height: fit-content;
+  left: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  text-align: center;
+  color: var(--color1);
 }
 /*  =======================================================
         A1.ATRIBUTOS P/ RESPOSIVIDADE
