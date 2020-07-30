@@ -5,7 +5,7 @@ let SlideIndex = 0;
 
 // Mostra o primeiro slide
 showSlide(SlideIndex);
-setInterval(changeIndex, 5000, 1);
+setInterval(changeIndex, 3000, 1);
 // Modifica o contador do slide por um fator number
 function changeIndex(number) {
   if (number >= 0) {
