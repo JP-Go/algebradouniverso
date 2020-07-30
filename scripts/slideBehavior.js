@@ -34,9 +34,9 @@ function showSlide(index) {
   slide.style.display = "block";
   // Mostra a legenda da imagem de acordo com o índice
   let legendas = {
-    0: "Uma Biblioteca",
-    1: "Pôr do Sol",
-    2: "Foto de longa exposição a noite em uma estrada",
+    0: "Por do Sol no ártico",
+    1: "Foto de longa exposição a noite em uma estrada de alguma cidade industrial",
+    2: "Uma Biblioteca enorme e bem organizada",
   };
   document.getElementById("legenda").innerText = legendas[`${index}`];
 }
