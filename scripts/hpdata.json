@@ -1,14 +1,14 @@
 [
   {
-    "imgPath": "../img/stock1.jpg",
+    "imgPath": "./img/stock1.jpg",
     "caption": " Pôr do Sol "
   },
   {
-    "imgPath": "../img/stock2.jpg",
+    "imgPath": "./img/stock2.jpg",
     "caption": "Foto de longa esposição em uma rodovia"
   },
   {
-    "imgPath": "../img/stock3.jpg",
+    "imgPath": "./img/stock3.jpg",
     "caption": " Uma biblioteca enorme e organizada"
   }
 ]
