@@ -1,26 +1,8 @@
 {
   "Ex1": {
-    "name": "Simulation one",
-    "path": "https://www.google.com",
-    "description": "This is the sim one",
-    "thumbnail": "./img/stock3.jpg"
-  },
-  "Ex2": {
-    "name": "Simulation two",
-    "path": "https://www.google.com",
-    "description": "This is the sim two",
-    "thumbnail": "./img/stock1.jpg"
-  },
-  "Ex3": {
-    "name": "Simulation three",
-    "path": "https://www.google.com",
-    "description": "This is the sim three",
-    "thumbnail": "./img/stock1.jpg"
-  },
-  "Ex4": {
-    "name": "Simulation four",
-    "path": "https://www.google.com",
-    "description": "This is the sim four",
-    "thumbnail": "./img/stock2.jpg"
+    "name": "Pêndulo ideal",
+    "path": "./test/pendulo/index.html",
+    "description": "Pêndulo simples ideal com amortecimento proporcional a velocidade",
+    "thumbnail": "./img/simulacoes/pendulo.png"
   }
 }
