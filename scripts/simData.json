@@ -3,5 +3,22 @@
     "name": "Pêndulo com amortecimento",
     "path": "./test/pendulo/index.html",
     "description": "Pêndulo simples com posibilidade de amortecimento proporcional à velocidade",
+    "thumbnail": "./img/stock3.jpg"
+  },
+    "Ex1": {
+    "name": "Pêndulo com amortecimento",
+    "path": "./test/pendulo/index.html",
+    "description": "Pêndulo simples com posibilidade de amortecimento proporcional à velocidade",
+    "thumbnail": "./img/stock3.jpg"
+    },
+    "Ex1": {
+    "name": "Pêndulo com amortecimento",
+    "path": "./test/pendulo/index.html",
+    "description": "Pêndulo simples com posibilidade de amortecimento proporcional à velocidade",
+    "thumbnail": "./img/stock3.jpg"},
+    "Ex1": {
+    "name": "Pêndulo com amortecimento",
+    "path": "./test/pendulo/index.html",
+    "description": "Pêndulo simples com posibilidade de amortecimento proporcional à velocidade",
     "thumbnail": "./img/stock3.jpg"}
 }
