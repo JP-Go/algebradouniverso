@@ -4,11 +4,5 @@
     "path": "./test/pendulo/index.html",
     "description": "Pêndulo simples com posibilidade de amortecimento proporcional à velocidade",
     "thumbnail": "./img/stock3.jpg"
-  },
-  "Ex2": {
-    "name": "Simulation two",
-    "path": "https://www.google.com",
-    "description": "This is the sim two",
-    "thumbnail": "./img/stock1.jpg"
   }
 }
