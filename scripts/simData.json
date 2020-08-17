@@ -1,8 +1,8 @@
 {
   "Ex1": {
-    "name": "Simulation one",
-    "path": "https://www.google.com",
-    "description": "This is the sim one",
+    "name": "Pêndulo com amortecimento",
+    "path": "./test/pendulo/index.html",
+    "description": "Pêndulo simples com posibilidade de amortecimento proporcional à velocidade",
     "thumbnail": "./img/stock3.jpg"
   },
   "Ex2": {
@@ -11,16 +11,4 @@
     "description": "This is the sim two",
     "thumbnail": "./img/stock1.jpg"
   },
-  "Ex3": {
-    "name": "Simulation three",
-    "path": "https://www.google.com",
-    "description": "This is the sim three",
-    "thumbnail": "./img/stock1.jpg"
-  },
-  "Ex4": {
-    "name": "Simulation four",
-    "path": "https://www.google.com",
-    "description": "This is the sim four",
-    "thumbnail": "./img/stock2.jpg"
-  }
 }
