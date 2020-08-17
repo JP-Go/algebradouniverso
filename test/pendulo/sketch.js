@@ -43,11 +43,11 @@ function draw() {
   background(220);
   getInputs();
   line(0, 30, width, 30);
+  dashedVline(p.axis.x, p.axis.y, height / 3, 10);
 
   p.update();
   p.display();
   strokeWeight(1);
-  dashedVline(p.axis.x, p.axis.y, height / 3, 10);
 }
 class Pendulum {
   constructor() {
@@ -94,7 +94,11 @@ class Pendulum {
   }
   display() {
     line(this.axis.x, this.axis.y, this.pos.x, this.pos.y);
-    fill(220, 60, 60);
+    if (this.damp == 0) {
+      fill(60, 200, 60);
+    } else {
+      fill(200, 50, 100);
+    }
     circle(this.pos.x, this.pos.y, this.m / 5);
   }
 }
