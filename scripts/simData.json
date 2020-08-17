@@ -1,8 +1,32 @@
 {
   "Ex1": {
+<<<<<<< HEAD
     "name": "Pêndulo ideal",
     "path": "./test/pendulo/index.html",
     "description": "Pêndulo simples ideal com amortecimento proporcional a velocidade",
     "thumbnail": "./img/simulacoes/pendulo.png"
   }
+=======
+    "name": "Pêndulo com amortecimento",
+    "path": "./test/pendulo/index.html",
+    "description": "Pêndulo simples com posibilidade de amortecimento proporcional à velocidade",
+    "thumbnail": "./img/stock3.jpg"
+  },
+    "Ex1": {
+    "name": "Pêndulo com amortecimento",
+    "path": "./test/pendulo/index.html",
+    "description": "Pêndulo simples com posibilidade de amortecimento proporcional à velocidade",
+    "thumbnail": "./img/stock3.jpg"
+    },
+    "Ex1": {
+    "name": "Pêndulo com amortecimento",
+    "path": "./test/pendulo/index.html",
+    "description": "Pêndulo simples com posibilidade de amortecimento proporcional à velocidade",
+    "thumbnail": "./img/stock3.jpg"},
+    "Ex1": {
+    "name": "Pêndulo com amortecimento",
+    "path": "./test/pendulo/index.html",
+    "description": "Pêndulo simples com posibilidade de amortecimento proporcional à velocidade",
+    "thumbnail": "./img/stock3.jpg"}
+>>>>>>> 11fc60fe29e1e0a5c019f8765f2b3f9526839c15
 }
