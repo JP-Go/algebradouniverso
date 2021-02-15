@@ -1,7 +1,7 @@
 {
   "pendulo": {
     "name": "Pendulo simples e amortecido",
-    "path": "./test/pendulo/index.html",
+    "path": "./sim/pendulo/index.html",
     "thumbnail": "./img/simulacoes/pendulo.png",
     "description": "Pêndulo simples e amortecido com corda ideal"
   }
